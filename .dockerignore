@@ -1,0 +1,5 @@
+.git*
+.ebextensions
+.istanbul.yml
+.travis.yml
+.idea
