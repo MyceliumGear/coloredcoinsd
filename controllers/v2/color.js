@@ -184,7 +184,7 @@ module.exports = (function () {
     function tryBroadcastAsset(req, res, next) {
         console.log("tryBroadcastAsset")
 
-        api.broadcastTxBitcoind(req.body.txHex).
+        api.broadcastTx(req.body.txHex).
         then(function (result) {
             res.status(200).send(result);
         }).
